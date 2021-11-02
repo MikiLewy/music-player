@@ -1,12 +1,12 @@
 import React from "react";
 import { Wrapper } from "./Song.styles";
 
-export const Song = () => {
+export const Song = ({ currentSong }) => {
   return (
     <Wrapper>
-      <h1>Picture</h1>
-      <h1>Song name</h1>
-      <h1>Artist</h1>
+      <img alt={currentSong.name} src={currentSong.cover}></img>
+      <h2>{currentSong.name}</h2>
+      <h3>{currentSong.artist}</h3>
     </Wrapper>
   );
 };
