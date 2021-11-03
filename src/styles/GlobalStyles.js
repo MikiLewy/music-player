@@ -32,4 +32,10 @@ h1,h2,h3{
 .selected{
     background-color: #96b3f0;
 }
+.App{
+    transition: all 0.5s ease;
+}
+.library-active{
+    margin-left: 30%;
+}
 `;

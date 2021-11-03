@@ -12,6 +12,9 @@ export const Wrapper = styled.div`
   transform: translateX(-100%);
   transition: 0.5s ease;
   opacity: 0;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
   &.active {
     transform: translateX(0);
     opacity: 1;
